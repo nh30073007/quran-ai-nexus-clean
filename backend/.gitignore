@@ -1,0 +1,83 @@
+# ==========================================
+# PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# ENVIRONMENT FILES (CRITICAL!)
+# ==========================================
+.env
+.env.local
+.env.production
+.env.*.local
+*.env
+
+# ==========================================
+# BACKEND SPECIFIC
+# ==========================================
+data/*.json
+data/cache/
+data/*.db
+data/*.sqlite3
+data/*.sqlite
+uploads/
+media/
+logs/
+*.log
+
+# Model cache
+.cache/
+hf_cache/
+models/
+*.bin
+*.onnx
+
+# FAISS index
+*.index
+*.pkl
+*.pickle
+
+# ==========================================
+# IDE
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# OS
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# TEST
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/

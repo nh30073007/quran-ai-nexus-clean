@@ -1,0 +1,35 @@
+name: quran_ai_nexus
+description: Quran AI Nexus - Divine Guidance App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^5.1.0
+  flutter_svg: ^2.0.7
+  dio: ^5.3.0
+  connectivity_plus: ^4.0.2
+  shared_preferences: ^2.2.0
+  provider: ^6.0.5
+  image_picker: ^1.0.2
+  file_picker: ^6.0.0
+  audioplayers: ^5.2.0
+  url_launcher: ^6.1.14
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
